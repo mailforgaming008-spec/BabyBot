@@ -4,7 +4,7 @@ services:
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/nikhilsainiop/Saini-txt-direct
+    repo: https://github.com/mj5000500-svg/BabyBot
     branch: main
     autoDeploy: false
     envVars:
@@ -21,4 +21,4 @@ services:
       #- key: WEBHOOK
         #sync: false
       - key: PORT
-        value: 8080  # Default port value, update if needed
+        value: 8000  # Default port value, update if needed
